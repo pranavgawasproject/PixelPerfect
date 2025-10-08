@@ -1,0 +1,63 @@
+/* App.css - Enhanced styles */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Hover effects for cards */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom gradient borders */
+.gradient-border {
+  position: relative;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, #667eea, #764ba2, #f093fb) border-box;
+  border: 2px solid transparent;
+}
+
+/* Sparkle effect */
+@keyframes sparkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.sparkle {
+  animation: sparkle 1.5s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button, input, select {
+  transition: all 0.3s ease;
+}
+
+/* Dark mode specific adjustments */
+.dark .glass-effect {
+  background: rgba(17, 24, 39, 0.85);
+}
+
+.dark .glass-effect-dark {
+  background: rgba(17, 24, 39, 0.95);
+}

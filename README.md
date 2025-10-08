@@ -1,4 +1,94 @@
-# 🎨 PixelPerfect - The Image Compliance Tool
+# 🎨 PixelPerfect - The Ultimate Image Tool
+
+A stunning, modern web application for resizing and compressing images with pixel-perfect precision. Built with React, Vite, and Tailwind CSS featuring a vibrant, eye-catching UI with gradient animations.
+
+## ✨ Features
+
+- 🖼️ **Image Resize** - Resize images to exact dimensions with aspect ratio lock
+- 🗜️ **Smart Compression** - Compress images to specific file sizes automatically
+- 🎨 **Multiple Formats** - Support for JPEG, PNG, and WebP
+- 🌓 **Dark Mode** - Beautiful dark/light theme toggle
+- ⚡ **Quick Presets** - One-click presets for common use cases (passport, profile, email, etc.)
+- 🔒 **100% Private** - All processing happens locally in your browser
+- ⌨️ **Keyboard Shortcuts** - Ctrl+V to paste, Enter to process, Ctrl+S to download
+- 📱 **Responsive Design** - Works perfectly on all devices
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+### Build for Production
+
+```bash
+# Create optimized production build
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 🎯 How to Use
+
+1. **Upload Image** - Drag & drop or click to select an image
+2. **Choose Mode** - Select Resize or Compress
+3. **Adjust Settings** - Set dimensions, quality, or file size limit
+4. **Process** - Click the transform button
+5. **Download** - Save your optimized image
+
+### Quick Presets
+
+- 🎫 **Passport Photo** - 413x531px, max 50KB
+- 👤 **Social Media Profile** - 400x400px, max 100KB  
+- ✉️ **Email Attachment** - 800x600px, max 100KB
+- 💬 **WhatsApp Share** - 1024x768px, max 500KB
+- 🎬 **HD Image** - 1920x1080px, max 1000KB
+
+## 🎨 Design Features
+
+- **Vibrant Gradient Background** - Animated gradient with purple, pink, and blue tones
+- **Glass Morphism** - Frosted glass effect with backdrop blur
+- **Smooth Animations** - Engaging hover effects and transitions
+- **Modern Color Palette** - Carefully selected gradient combinations
+- **Eye-Catching UI** - Professional and user-friendly interface
+
+## 🛠️ Technology Stack
+
+- **React 19** - Latest React with hooks
+- **Vite** - Lightning-fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **HTML5 Canvas** - Client-side image processing
+
+## 📋 Browser Support
+
+Works on all modern browsers:
+- Chrome/Edge (recommended)
+- Firefox
+- Safari
+- Opera
+
+## 🔐 Privacy
+
+All image processing is done entirely in your browser using HTML5 Canvas. No images are uploaded to any server. Your data never leaves your device!
+
+## 📄 License
+
+MIT License - Feel free to use for personal or commercial projects
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+---
+
+Made with ❤️ by the PixelPerfect Team
 
 A powerful, privacy-focused web application for resizing and compressing images to meet exact document and application requirements. All processing happens locally in your browser - your images never leave your device!
 
